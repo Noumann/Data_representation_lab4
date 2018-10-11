@@ -42,6 +42,7 @@ app.get("/api/posts",(req,res,next)=>{
 });
 
 //use path here which was declared at the top
+//html file from moodle
 app.get('/test',function(req,res){
     res.sendFile(path.join(__dirname+'/index.html'));
 });
